@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jeiza_jara</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    </head>
+    <body>
+        <header>
+			<h1>Jeiza Jara</h1>
+		</header>
+		<section>
+		<div id="navbar">
+			<ul class="main-navigation">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Location</a>  
+				 <ul><li><p> Birla LP School</p></li>
+					 <li><p>Diphu Karbi Anglong</p></li>
+					 <li><p>Assam</p></li>  
+					 <li><p> Pin:782460</p></li> 
+				 </ul>
+			   </li>
+				<li><a href="#">Our Products</a>
+				  <ul>
+					<li><a href="#">Flowers</a>
+					<ul>
+					  <li><a href="#">Foliage</a></li>
+					  <li><a href="#">Flowering</a></li>
+					  <li><a href="#">Buds</a></li>
+					</ul>
+				  </li>
+					<li><a href="#">Pickles</a></li>
+					<li><a href="#">Garden Tools</a></li>
+				  </ul>
+				</li>
+				<li><a href="#">About Us</a></li>
+			  </ul>
+		</section>
+       
+          
+		  <script>
+			window.onscroll = function() {myFunction()};
+			
+			var navbar = document.getElementById("navbar");
+			var sticky = navbar.offsetTop;
+			
+			function myFunction() {
+			  if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			  } else {
+				navbar.classList.remove("sticky");
+			  }
+			}
+			</script>
+    </body>
+</html>
