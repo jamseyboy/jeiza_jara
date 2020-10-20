@@ -1,6 +1,6 @@
 /*header*/
 body{
-	background-image: url("./images/header_logo.jpg");
+	background-image: url("https://jamseyboy.github.io/jeiza_jara/images/bg_logo.jpg");
 	background-repeat:repeat-y;
 	background-position-x: center;
 	background-attachment: fixed;
@@ -10,7 +10,7 @@ body{
 	height: 2000px;
 }
 header {
-	background-image: url("./images/header_logo.jpg");
+	background-image: url("https://jamseyboy.github.io/jeiza_jara/images/header_logo.jpg");
 	background-color: #fff;
 	background-attachment: fixed;
 	background-size: 200%;
